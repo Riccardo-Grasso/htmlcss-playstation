@@ -39,9 +39,14 @@ body {
     margin-bottom: 10px;
 }
 
-.logo-dimensions {
+.logo-sony-dimensions {
     max-height: 40px;
-    max-width: 110px;
+    max-width: 10%;
+}
+
+.logo-ps-dimensions {
+    max-height: 40px;
+    max-width: 120px;
 }
 
 .logo-padding {
