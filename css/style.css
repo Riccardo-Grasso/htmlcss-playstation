@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(59, 59, 59);
+}
+
+.section-base {
+    padding: 20px 0;
+}
+
+.section-medium {
+    padding: 40px 0;
+}
+
+.section-large {
+    padding: 60px 0;
+}
+
+.section-main-hero {
+    padding-top: 80px;
+}
+
+.section-sup {
+    margin-bottom: 5px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+.section-title.section-title-small {
+    margin-bottom: 12px;
+}
+
+
+.section-subtitle {
+    margin-bottom: 15px;
+}
+
+.section-text {
+    margin-bottom: 10px;
+}
+
+.logo-dimensions {
+    max-height: 40px;
+    max-width: 110px;
+}
+
+.logo-padding {
+    padding: 10px 0;
+}
+
+.my-btn {
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.margin-icon {
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+/************* MIEI CAMBIAMENTI ************************/
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0,0,0);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #383838;
+    border-color: #383838;
+}
+
