@@ -27,10 +27,6 @@ body {
     margin-bottom: 25px;
 }
 
-.section-title {
-    margin-bottom: 25px;
-}
-
 .section-title-small {
     margin-bottom: 15px;
 }
@@ -47,6 +43,10 @@ body {
 
 .section-text {
     margin-bottom: 20px;
+}
+
+.row-margin-top {
+    margin-top: 50px;
 }
 
 .logo-sony-dimensions {
@@ -124,6 +124,10 @@ body {
     background-color: #242424;
 }
 
+.light-grey-bg {
+    background-color: #BCBAB9;
+}
+
 h2 {
     font-size: 2.5rem;
 }
@@ -136,8 +140,12 @@ h4 {
     font-size: 1.3rem;
 }
 
-h5, .text-small {
+h5 {
     font-size: 0.9rem;
+}
+
+.text-small {
+    font-size: 0.8rem;
 }
 
 .card.active::before {
@@ -176,7 +184,11 @@ h5, .text-small {
     filter: opacity(60%);
 }
 
-
+.r-mark {
+    font-size: 10px;
+    position: relative;
+    bottom: 15px;
+}
 
 /********************** MEDIA ***************************/
 
