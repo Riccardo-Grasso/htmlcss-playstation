@@ -91,9 +91,21 @@ body {
 }
 
 .btn-secondary {
+    color: #4057E4;
+    background-color: #D8D9DB;
+    border-color: #D8D9DB;
+}
+
+.btn-dark {
     color: #fff;
     background-color: #383838;
     border-color: #383838;
+}
+
+.btn-light {
+    color: #000;
+    background-color: #F5F5F5;
+    border-color: #F5F5F5;
 }
 
 .btn-danger {
@@ -126,6 +138,10 @@ body {
 
 .light-grey-bg {
     background-color: #BCBAB9;
+}
+
+.dark-blue-bg {
+    background-color: #1F203D;
 }
 
 h2 {
