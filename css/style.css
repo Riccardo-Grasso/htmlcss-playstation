@@ -4,7 +4,8 @@ body {
 }
 
 .section-base {
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .section-medium {
@@ -55,7 +56,7 @@ body {
 }
 
 .logo-ps-dimensions {
-    max-height: 40px;
+    max-height: 50px;
     max-width: 120px;
 }
 
@@ -75,6 +76,12 @@ body {
 
 /************* MIEI CAMBIAMENTI ************************/
 
+.font {
+    font-size: 18px;
+}
+.w-image {
+    width: 100%;
+}
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0,0,0);
@@ -201,6 +208,11 @@ h5 {
     color: #707070;
 }
 
+.my-border-bottom {
+    border-bottom: 2px solid #275BE3;
+    border-radius: 0;
+}
+
 .opacity-scale {
     filter: opacity(60%);
 }
@@ -218,11 +230,57 @@ h5 {
     margin: 5px 0;
 }
 
+.w-60 {
+    width: 60% !important;
+}
+
+.w-70 {
+    width: 70% !important;
+}
+
+.w-80 {
+    width: 80% !important;
+}
 
 /********************** MEDIA ***************************/
 
-/* @media (min-width: 2480px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 2300px;
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+        .font {
+            font-size: 19px;
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .font {
+        font-size: 17px;
     }
-} */
+
+    .w-image {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .font {
+        font-size: 13px;
+    }
+
+    .w-image {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .font {
+        font-size: 17px;
+    }
+
+    .w-image {
+        width: 50%;
+    }
+}
+
