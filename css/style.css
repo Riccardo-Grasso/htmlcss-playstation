@@ -52,7 +52,7 @@ body {
 
 .logo-sony-dimensions {
     max-height: 40px;
-    max-width: 10%;
+    max-width: 80px;
 }
 
 .logo-ps-dimensions {
@@ -228,6 +228,10 @@ h5 {
     text-decoration: none;
     color: white;
     margin: 5px 0;
+}
+
+.padding-int {
+    padding-left: 30px !important;
 }
 
 .w-60 {
