@@ -192,7 +192,6 @@ h5 {
 }
 
 .card {
-    /* overflow: hidden; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -244,6 +243,45 @@ h5 {
 
 .w-80 {
     width: 80% !important;
+}
+
+/*********************** HOVER***************************/
+li.nav-item.dropdown:hover  a.nav-link.dropdown-toggle {
+    color: #275BE3;
+}
+
+.ps-accessories .card:hover {
+    filter: opacity(100%);
+}
+
+.card-giochi .container {
+    position: relative;
+}
+
+.card-giochi .card{
+    transition: transform .5s;
+}
+
+.card-giochi .card:hover {
+    transform: translateY(-10px);
+}
+
+.outline-white {
+    outline: 1px solid transparent;
+    outline-offset: -3px;
+}
+
+.btn.outline-white:hover {
+    outline: 1px solid white;
+}
+
+.outline-black {
+    outline: 1px solid transparent;
+    outline-offset: -3px;
+}
+
+.btn.outline-black:hover {
+    outline: 1px solid black;
 }
 
 /********************** MEDIA ***************************/
