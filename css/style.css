@@ -74,11 +74,33 @@ body {
     margin-left: 30px;
 }
 
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: transparent;
+}
+
+.navbar-nav .nav-link + .dropdown-menu {
+    position: fixed;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 109px; 
+    border: 0;
+    border-radius: 0;
+    border-top: 1px solid lightgray;
+}
+
+.navbar-nav .nav-link:focus + .dropdown-menu {
+    display:flex;
+} 
+
+
 /************* MIEI CAMBIAMENTI ************************/
 
-.font {
+/* .font {
     font-size: 18px;
-}
+} */
+
 .w-image {
     width: 100%;
 }
@@ -94,8 +116,8 @@ body {
 
 .btn-primary {
     color: #fff;
-    background-color: #275BE3;
-    border-color: #275BE3;
+    background-color: #485DE4;
+    border-color: #485DE4;
 }
 
 .btn-secondary {
@@ -201,6 +223,7 @@ h5 {
     border-radius: 1.25rem;
     border: 0;
     background-color: transparent;
+    height: 100%;
 }
 
 .my-grey {
@@ -288,16 +311,16 @@ li.nav-item.dropdown:hover  a.nav-link.dropdown-toggle {
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
-        .font {
+        /* .font {
             font-size: 19px;
-        }
+        } */
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-    .font {
+    /* .font {
         font-size: 17px;
-    }
+    } */
 
     .w-image {
         width: 50%;
@@ -306,9 +329,9 @@ li.nav-item.dropdown:hover  a.nav-link.dropdown-toggle {
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
-    .font {
+    /* .font {
         font-size: 13px;
-    }
+    } */
 
     .w-image {
         width: 50%;
@@ -317,9 +340,9 @@ li.nav-item.dropdown:hover  a.nav-link.dropdown-toggle {
 
 @media screen and (min-width: 1200px) {
 
-    .font {
+   /*  .font {
         font-size: 17px;
-    }
+    } */
 
     .w-image {
         width: 50%;
