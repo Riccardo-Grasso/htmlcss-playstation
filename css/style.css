@@ -92,9 +92,36 @@ body {
 
 .navbar-nav .nav-link:focus + .dropdown-menu {
     display:flex;
+    flex-direction: column;
 } 
 
+.my-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
 
+nav .menu-toggle:focus + .navbar-collapse {
+    display: flex !important;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 14px;
+    background-color: white;
+}
+
+nav .menu-toggle:focus + ul li {
+    margin-right: 0;
+}
+
+nav .menu-toggle:focus + ul li a {
+    padding: 6px 14px;
+    display: inline-block;
+}
 /************* MIEI CAMBIAMENTI ************************/
 
 /* .font {
@@ -177,6 +204,11 @@ body {
 .light-blue-bg {
     background-color: #013A92;
 }
+
+.light-blue {
+    color: #0e7ee7;
+}
+
 
 h2 {
     font-size: 2.5rem;
@@ -267,6 +299,7 @@ h5 {
 .w-80 {
     width: 80% !important;
 }
+
 
 /*********************** HOVER***************************/
 li.nav-item.dropdown:hover  a.nav-link.dropdown-toggle {
